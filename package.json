@@ -1,0 +1,22 @@
+{
+	"name": "booking-book",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/interface/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "dandan-ismail",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"mysql2": "^3.10.0",
+		"sequelize": "^6.37.3",
+		"sequelize-cli": "^6.6.2",
+		"swagger-jsdoc": "^6.2.8",
+		"swagger-ui-express": "^5.0.1",
+		"uuid": "^10.0.0"
+	}
+}
